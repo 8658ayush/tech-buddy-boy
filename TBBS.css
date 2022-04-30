@@ -1,0 +1,70 @@
+h1 {
+  color: red;
+  font-family: 'Arial', sans-serif;;
+}
+p {
+  color: red;
+  font-family: 'Arial', sans-serif;
+}
+button {
+  background-color: white;
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+    .context-menu ul {
+        padding: 0px;
+        margin: 0px;
+        min-width: 150px;
+        list-style: none;
+        border-radius: 15px 15px;
+        cursor: pointer;
+    }
+  
+    .context-menu ul li {
+        padding-bottom: 7px;
+        padding-top: 7px;
+        border-radius: 15px 15px;
+        cursor: pointer;
+    }
+  
+    .context-menu ul li a {
+        text-decoration: none;
+        color: black;
+        border-radius: 15px 15px;
+        cursor: pointer;
+    }
+  
+    .context-menu ul li:hover {
+        background: deeppink;
+        border-radius: 15px 15px;
+        cursor: pointer;
+    }
+    .unselectable {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: pink;
+  border-radius: 15px 15px  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hotpink;
+  border-radius: 15px 15px  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: deeppink; 
+}
